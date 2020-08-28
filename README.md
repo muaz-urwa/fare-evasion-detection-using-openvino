@@ -1,11 +1,12 @@
 
 ## clone the repository
-git clone 
+https://github.com/muaz-urwa/Fare_Evasion_Detection_using_OPenvino.git
 
 ## download models and demo video
+
 - download models from [google drive](https://drive.google.com/drive/folders/19PTZ7EBu1HPEjtqfXPJPjCyg3D7ANGkM?usp=sharing)
 - download data from [google drive](https://drive.google.com/drive/folders/1rNqr1aYlHgu3kEXT7GTaTTpP4uP9xLoR?usp=sharing)
-- copy the models and data folders in project directory
+- copy the models and data folders in project directory: Fare_Evasion_Detection_using_OPenvino/
 
 ## build the container
 docker build -t openvino.
@@ -19,7 +20,7 @@ python Service.py --in_video_path data/videos/clips.avi --device CPU
 A new experiment directory will be created in runs/ folder and result video and captured violations will be stored there.
 
 ## demo video tutorial
-
+(video)[https://youtu.be/yqYpowyuam0]
 
 
 
